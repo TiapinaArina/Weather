@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-page{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url("img/bg.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+.inputField{
+    width: 30%;
+    height: 50px;
+    margin: 50px;
+    border-radius: 15px;
+    padding: 20px;
+    border: 2px solid grey;
+    font-size: 110%;
+    font-family: Georgia;
+    color: black;
+}
+.btn{
+    position: absolute;
+    top: 60px;
+    left: 62%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.cards{
+    width: 100%;
+    padding: 20px 250px 50px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+}
+.card{
+    position: relative;
+    width: 270px;
+    border-radius: 20px;
+    background-color: rgba(255, 166, 0, 0.8);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    box-shadow: 15px 15px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.valIcon{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.icon{
+    width: 100px;
+}
+.val{
+    width: 25%;
+    height: fit-content;
+    padding: 5px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.values{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.name{
+    font-weight: bold;
+    font-size: 23px;
+}
+.tempContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.close{
+    width: 30px;
+    height: 30px;
+    padding-top: 1px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: monospace;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    cursor: pointer;
+    box-shadow: 15px 15px 9px -3px rgba(0, 0, 0, 0.2);
+}
+
