@@ -14,7 +14,7 @@ async function weather(city){
     if (data.cod != 200){
         console.log("0")
         cityInput.value = ""
-        cityInput.placeholder="Город не найден, попробуйте еще раз"
+        cityInput.placeholder="Такого города не существует"
         setTimeout(()=>{
             cityInput.placeholder = "Введите город"
         }, 3000)
